@@ -1,0 +1,74 @@
+.weather-info {
+  background: #f8f9fa;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.weather-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.weather-temp {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.weather-condition {
+  color: #6c757d;
+}
+
+.weather-price {
+  position: relative;
+  margin: 10px 0;
+}
+
+.weather-adjusted-price {
+  color: #28a745;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.regular-price {
+  text-decoration: line-through;
+  color: #6c757d;
+  font-size: 0.9em;
+}
+
+.weather-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+#weather-location-search {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+
+#weather-location-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.weather-search-btn {
+  padding: 8px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.weather-search-btn:hover {
+  background: #0056b3;
+}
